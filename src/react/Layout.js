@@ -20,9 +20,9 @@ const Layout = (props) => {
 			}</ul>
 			<button id="click" onClick={ 
 					_ => {
-					props.newItem("Alter triggered from React but Fired from AngularJS");
+					props.newItem(`State update from React added New Todo ${new Date().toDateString()}` );
 					}
-				}>Click to make Angular Alert!!</button>
+				}>Add a Todo from React</button>
 		</div>
 	);
  
